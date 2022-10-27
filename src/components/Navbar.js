@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className={isToggled === false ? "nav-menu active" : "nav-menu"}>
                 {MenuItems.map((items, index) => {
                     return (<li key={index}>
-                        <a className={items.cName} href={items.url}><i className={items.icon}></i>{items.title}</a>
+                        <Link className={items.cName} to={items.url}><i className={items.icon}></i>{items.title}</Link>
                     </li>)
                 })}
                 <button>Signup</button>
