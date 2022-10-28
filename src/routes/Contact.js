@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutImg from "../assets/2.jpg"
+import ContactForm from '../components/ContactForm'
 import Hero from '../components/Hero'
 
 const Contact = () => {
@@ -9,9 +10,8 @@ const Contact = () => {
                 heroImg={AboutImg}
                 title="Contact"
                 url="/about"
-
-
             />
+            <ContactForm />
         </div>
     )
 }
