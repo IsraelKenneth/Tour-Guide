@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutImg from "../assets/night.jpg"
+import AboutUS from '../components/AboutUS'
 import Hero from '../components/Hero'
 
 const About = () => {
@@ -13,6 +14,8 @@ const About = () => {
 
 
             />
+
+            <AboutUS />
 
 
         </div>

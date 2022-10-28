@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutImg from "../assets/night.jpg"
 import Hero from '../components/Hero'
+import Trip from '../components/Trip'
 
 const Service = () => {
     return (
@@ -11,6 +12,7 @@ const Service = () => {
                 title="Service"
                 url="/about"
             />
+            <Trip />
         </div>
     )
 }

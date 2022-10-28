@@ -1,5 +1,6 @@
 import React from 'react'
 import Destination from '../components/Destination'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Trip from '../components/Trip'
 
@@ -18,7 +19,12 @@ const Home = () => {
             <Destination
 
             />
-            <Trip />
+            <Trip
+
+            />
+            {/* <Footer
+
+            /> */}
         </div>
     )
 }
