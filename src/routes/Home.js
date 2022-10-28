@@ -1,5 +1,7 @@
 import React from 'react'
+import Destination from '../components/Destination'
 import Hero from '../components/Hero'
+import Trip from '../components/Trip'
 
 const Home = () => {
     return (
@@ -12,9 +14,11 @@ const Home = () => {
                 btnText="Travel Plan"
                 url="/"
                 btnClass="show"
-
+            />
+            <Destination
 
             />
+            <Trip />
         </div>
     )
 }

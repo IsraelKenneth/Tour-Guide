@@ -1,8 +1,18 @@
 import React from 'react'
+import AboutImg from "../assets/2.jpg"
+import Hero from '../components/Hero'
 
 const Contact = () => {
     return (
-        <div>Contact</div>
+        <div>
+            <Hero cName="hero-mid"
+                heroImg={AboutImg}
+                title="Contact"
+                url="/about"
+
+
+            />
+        </div>
     )
 }
 
