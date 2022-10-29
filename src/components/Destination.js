@@ -30,8 +30,8 @@ const Destination = () => {
                 className2='des-text'
                 heading="Tall Volcano, Batangas"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, erat eget eleifend lobortis, ipsum metus volutpat nunc, quis ultrices nisi odio hendrerit risus. Ut ut mauris in massa sodales dictum a sed lorem. Fusce varius faucibus massa nec facilisis. Morbi accumsan urna nec mi tempus auctor. Vivamus quis ligula leo. Aliquam molestie efficitur nulla quis facilisis. Mauris accumsan tortor sit amet est aliquet, vel posuere metus accumsan. Nullam varius interdum neque, iaculis condimentum ligula efficitur tempus. Aliquam vehicula tortor efficitur condimentum aliquam. Integer nunc erat, fermentum sed dapibus sit amet, porttitor eget metus. Duis blandit fermentum enim nec mollis."
-                img1={Mountain1}
-                img2={Mountain2}
+                img1={Mountain3}
+                img2={Mountain4}
 
             />
 

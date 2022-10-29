@@ -11,9 +11,16 @@ const Navbar = () => {
 
 
     const HandleClick = React.useCallback(
-        () => setIsToggled(!isToggled),
-        [isToggled, setIsToggled],
+        () => setIsToggled(!isToggled)
     );
+
+
+
+    const scrollToTop = () => {
+        document.getElementById("scroller").scroll(0, 0)
+    }
+
+
 
 
     return (
@@ -24,11 +31,15 @@ const Navbar = () => {
 
                 <i className={isToggled === false ? "fas fa-times" : 'fas fa-bars'}></i>
             </div>
-            <ul className={isToggled === false ? "nav-menu active" : "nav-menu"}>
+            <ul onClick={HandleClick} className={isToggled === false ? "nav-menu active" : "nav-menu"} >
                 {MenuItems.map((items, index) => {
-                    return (<li key={index}>
-                        <Link className={items.cName} to={items.url}><i className={items.icon}></i>{items.title}</Link>
-                    </li>)
+                    return (
+
+
+                        <li key={index}>
+                            <Link onClick={scrollToTop} className={items.cName} to={items.url}><i className={items.icon}></i>{items.title}</Link>
+                        </li>
+                    )
                 })}
                 <button>Signup</button>
             </ul>
@@ -37,6 +48,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-{/* <i className='fas fa-times'></i> */ }
