@@ -18,9 +18,6 @@ function App() {
       </Routes>
       <Navbar />
       <Footer />
-
-
-
     </div>
   )
 }
